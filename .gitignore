@@ -1,0 +1,28 @@
+# ============================================================
+#  Unreal Engine generierte Ordner (überall im Baum)
+# ============================================================
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# IDE
+.vs/
+.idea/
+*.VC.db
+*.VC.opendb
+
+# Build-Artefakte
+*.exe
+*.pdb
+*.pch
+
+# ============================================================
+#  Große LLM-Modelle 
+# ============================================================
+LLM_NPC/Deploy/Models/Hermes-3-Llama-3.2-3B.Q4_K_M.gguf
+LLM_NPC/Deploy/Models/Qwen3.5-4B-Q4_K_M.gguf
+LLM_NPC/Deploy/Models/*.gguf
+
+# Editor-Lock-Files 1
+.~lock.*#
